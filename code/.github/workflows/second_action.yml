@@ -2,7 +2,7 @@ name: Running node app
 on:
   push:
     branches:
-      - second_action
+      - second_actionzzz
 jobs:
     node_running_test:
       runs-on: ubuntu-latest
