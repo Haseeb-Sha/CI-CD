@@ -2,7 +2,7 @@ name: Running node app
 on: push
 jobs:
     node_running_test:
-      runs_on: ubuntu-latest
+      runs-on: ubuntu-latest
       steps:
         - name: pushing code to github runner
           uses: actions/checkout
