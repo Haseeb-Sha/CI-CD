@@ -8,9 +8,9 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - name: pushing code to github runner
-          uses: actions/checkout
+          uses: actions/checkout@v5
         - name: Install node on server
-          uses: actions/setup-node
+          uses: actions/setup-node@v4
           with:
              node-version: '18' 
         - name: installing dependecies
