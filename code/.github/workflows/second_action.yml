@@ -1,5 +1,8 @@
 name: Running node app
-on: push
+on:
+  push:
+    branches:
+      - second_action
 jobs:
     node_running_test:
       runs-on: ubuntu-latest
